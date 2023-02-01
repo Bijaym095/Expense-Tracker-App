@@ -1,0 +1,21 @@
+.expensetracker__history {
+  margin-bottom: 1.5rem;
+}
+
+.expensetracker__history h3 {
+  border-bottom: 0.0625rem solid #808080;
+  margin-bottom: 2rem;
+}
+
+.expensetracker__history .history-list {
+  list-style: none;
+}
+
+.expensetracker__history .history-item {
+  border: 1px solid black;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.25rem;
+}

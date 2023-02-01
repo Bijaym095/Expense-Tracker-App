@@ -1,0 +1,17 @@
+:root {
+  --main-bg-clr: #dedcde;
+  --main-btn-clr: #6455a9;
+
+  --sucess-clr: green;
+  --danger-clr: red;
+}
+
+.expensetracker {
+  width: 40vw;
+  margin: 0 auto;
+}
+
+.expensetracker h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
