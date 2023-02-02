@@ -1,4 +1,6 @@
 import AmountData from "./AmountData";
+
+//styles
 import "./BalanceDisplay.css";
 
 export default function BalanceDisplay() {

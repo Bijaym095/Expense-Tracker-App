@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import ExpenseTrackerContext from "../../../context/Expensetracker/expenseTrackerContext";
 
-//styling
+//styles
 import "./Form.css";
 
 const Form = () => {
@@ -50,7 +50,7 @@ const Form = () => {
 
       <div>
         <label htmlFor="amount">
-          Amount (negative - expense, positive - income)
+          Amount (- amount : expense, + amount/amount : income)
         </label>
         <input
           id="amount"

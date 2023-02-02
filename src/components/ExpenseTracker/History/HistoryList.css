@@ -1,0 +1,15 @@
+.expensetracker__history .history-lists {
+  list-style: none;
+  max-height: 250px;
+  overflow-y: scroll;
+}
+
+.expensetracker__history .history-item {
+  background-color: #fff;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  position: relative;
+}

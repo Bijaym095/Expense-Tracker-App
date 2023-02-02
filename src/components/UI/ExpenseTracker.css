@@ -9,6 +9,7 @@
 .expensetracker {
   width: 40vw;
   margin: 0 auto;
+  padding-block: 30px;
 }
 
 .expensetracker h1 {

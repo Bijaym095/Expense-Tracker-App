@@ -1,3 +1,4 @@
+//styles
 import "./AmoutData.css";
 
 export default function AmountData() {

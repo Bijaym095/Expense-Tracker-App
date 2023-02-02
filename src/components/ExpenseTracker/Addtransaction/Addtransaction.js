@@ -1,4 +1,6 @@
 import Form from "./Form";
+
+//styles
 import "./Addtransaction.css";
 
 const Addtransaction = () => {
