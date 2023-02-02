@@ -6,12 +6,17 @@
   background-color: #fff;
   max-width: 80%;
   margin: 0 auto;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
 }
 
 .expensetracker__amount-data .income h4,
 .expensetracker__amount-data .expense h4 {
   text-transform: uppercase;
   letter-spacing: 0.0625rem;
+}
+.expensetracker__amount-data .income h4 span,
+.expensetracker__amount-data .expense h4 span {
+  text-transform: capitalize;
 }
 
 .expensetracker__amount-data .income span {

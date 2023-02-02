@@ -1,19 +1,19 @@
 //styles
 import "./AmoutData.css";
 
-export default function AmountData() {
+export default function AmountData({ incomeTotal, expenseTotal }) {
   return (
     <div className="expensetracker__amount-data">
       <div className="income">
         <h4>
           Income
-          <span>$500.00</span>
+          <span>Rs {incomeTotal}</span>
         </h4>
       </div>
       <div className="expense">
         <h4>
           Expense
-          <span>$240.00</span>
+          <span>Rs {Math.abs(expenseTotal)}</span>
         </h4>
       </div>
     </div>

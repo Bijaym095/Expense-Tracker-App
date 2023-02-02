@@ -3,7 +3,7 @@ import Addtransaction from "../ExpenseTracker/Addtransaction/Addtransaction";
 import BalanceDisplay from "../ExpenseTracker/BalanceDisplay/BalanceDisplay";
 import History from "../ExpenseTracker/History/History";
 
-//context
+//context provider
 import ExpenseTrackerState from "../../context/Expensetracker/ExpenseTrackerState";
 
 //styles

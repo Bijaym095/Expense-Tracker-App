@@ -7,7 +7,7 @@ export const HistoryList = ({ lists }) => {
     top: "0",
     right: " 0",
     bottom: "0",
-    width: "10px",
+    width: "5px",
     height: "100%",
   };
 
